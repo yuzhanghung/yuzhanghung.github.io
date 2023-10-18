@@ -1,0 +1,201 @@
+/* Home page */
+body, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Style the menu page container */
+#menu_page {
+    position: relative;
+}
+
+.top-bar {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.B {
+    color: white;
+}
+
+a {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.logo p {
+    color: white;
+    font-size: 25px;
+}
+
+/* second flex */
+
+.bottom-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-content{
+    max-width: 200%;
+    margin: 10px;
+}
+
+
+
+.right-content p {
+    font-size: 50px; /* Adjust the font size as needed */
+    color: plum;
+    font-weight: bold;
+}
+
+
+/* Third flex */
+#image_row {
+    display: flex; /* Arrange the images in a row */
+    justify-content: space-between; /* Space them evenly */
+}
+
+#image_row img {
+    max-width: 30%; 
+    margin: 5px;
+}
+
+
+/* Fourth */
+#content {
+    text-align: center;
+}
+
+/* Style the title */
+h1, h5 {
+    font-size: 36px;
+    margin: 20px 0;
+    color: plum;
+}
+
+
+.text-box, .text-box2 {
+    flex: 1;
+    /*background-color: lightgray; */
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid pink; 
+    border-radius: 5px;
+    justify-content: space-between;
+    display: inline-block;
+    width: calc(33.33% - 20px); /* Adjust the width to fit three boxes in a row */
+}
+
+/* Style the subtitles and additional text */
+h2, h3, h4 {
+    font-size: 24px;
+    color: pink;
+}
+
+p {
+    font-size: 16px;
+    color: gray;
+}
+
+/* Style the "Check Our Menu" button */
+.menu-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.menu-button {
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.menu-button:hover {
+    background-color: palevioletred;
+}
+
+
+/* fifth */
+
+#content2 {
+    text-align: center;
+}
+
+
+
+
+
+
+/* Menu page */
+#menu_page2 {
+    position: relative;
+}
+
+.top-bar2 {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    color: white;
+}
+
+.B2 p {
+    margin: 0;
+    color: white;
+    font-size: 25px;
+}
+
+.logo2 p {
+    color: white;
+    font-size: 20px;
+}
+
+.centered-title{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.menu-category {
+    margin-bottom: 20px; /* Add space between categories */
+    display: inline-block; /* Make items appear in a horizontal row */
+    margin-right: 20px; /* Add space between items */
+    border: 1px solid #ccc; /* Add borders for clarity */
+    padding: 10px; 
+    width: calc(31.5% - 20px); /* Adjust the width to fit three boxes in a row */
+
+}
+
+.menu-category h3{
+    margin: 0;
+    color: #FF69B4;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.menu-item h4{
+    margin:0;
+    margin-top: 10px;
+}
+
+.menu-item p{
+    margin-top: 10px;
+}
+
