@@ -1,6 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>TO-DO LIST</title>
+    </head>
     <body>
-        FINAL
+
+        <div class="container">
+
+            <div class="section" id="todoSection">
+                <div class="todo-container">
+                    <h1>To-Do List</h1>
+                    <input type="text" id="taskInput" placeholder="New Task">
+                    <button onclick="addTask()">Add Task</button>
+                    <ul id="taskList"></ul>
+                    <button id="toggleButton">Toggle Colorful Mode</button>
+                </div>
+                
+            </div>
+
+
+
+    
+            <div class="section" id="timerSection">
+                <div class="timer">
+                    <h2>Countdown Timer</h2>
+                    <div id="timerDisplay">00:00</div>
+                    <label for="timeInput">Set your time:</label>
+                    <input type="number" id="timeInput" placeholder="Minutes">
+                    <button id="startButton" onclick="startTimer()">Start</button>
+                </div>
+            </div>
+        
+        </div>
+
+
     </body>
+
+<script src="assets/js/script.js"></script>
+
 </html>
